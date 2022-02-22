@@ -17,6 +17,9 @@ jobs:
     # Add Unit Test and then run them on the build
     # - name: Test
     #   run: npm run test
+
+    - name: PreDeploy
+      run: npm run predeploy
     
     - name: Deploy
       run: |
