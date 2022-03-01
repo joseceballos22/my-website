@@ -1,17 +1,9 @@
-import './App.css';
-function App() {
+import React from 'react'
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>
-          Sweets By Maria Website
-        </h1>
-        <h2>
-          ** Under Construction **
-        </h2>
-      </header>
-    </div>
-  );
+    <div>Sweets By Maria</div>
+  )
 }
 
-export default App;
+export default App
