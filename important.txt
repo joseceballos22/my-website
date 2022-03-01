@@ -1,0 +1,2 @@
+(The whole thing with react is to separate everything into components kinda like how we separate a big function
+ into multiple little functions and then call them all in one function) 
