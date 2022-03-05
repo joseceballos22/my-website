@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Adding the boot strap css
 import sweetsByMaria from './images/sweetsByMaria.png';
 import bestInTheHD from './images/bestInTheHD.png';
 import openNow from './images/openNow.png';
-import instagramImage from './images/instagram.png';
+import instagramImage from './images/instagramIcon.png';
 import './App.css';
 
 class App extends React.Component {
@@ -33,12 +33,22 @@ class App extends React.Component {
                 760-123-4567
               </Col>
               <Col>
-                  <a href='https://www.instagram.com/sweetsbymaria__/' className='linkText'>
-                    <img src={instagramImage} className="iconImageStyle"></img>
-                  </a>
-                  <Button className='buttonStyle'>
+                  <Button variant= 'outline-*' className='buttonStyle'>
+                    Home
+                  </Button>
+                  <Button variant= 'outline-*' className='buttonStyle'>
+                    Store
+                  </Button>
+                  <Button variant= 'outline-*' className='buttonStyle'>
+                    About Us
+                  </Button>
+                  
+                  <Button variant= 'outline-*' className='buttonStyle'>
                     Log In
                   </Button>
+                  <a href='https://www.instagram.com/sweetsbymaria__/' className='linkText spaceElementsHorz'>
+                    <img src={instagramImage} className="iconImageStyle"></img>
+                  </a>
               </Col>
             </Row>
             <hr></hr>
@@ -48,16 +58,10 @@ class App extends React.Component {
                 SweetsByMaria.us
                 </a>
               </Col>
-              <Col>
-                  <Button className='buttonStyle'>
-                    Home
-                  </Button>
-                  <Button className='buttonStyle'>
-                    Store
-                  </Button>
-                  <Button className='buttonStyle'>
-                    About Us
-                  </Button>
+              <Col className='leftAlignElement'>
+                <Button variant= 'outline-*' className='buttonStyle'>
+                  Terms and Conditions
+                </Button>
               </Col>
             </Row>
           </Container>

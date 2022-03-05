@@ -28,15 +28,26 @@
 }
 
 .buttonStyle {
+  box-shadow: none !important;
   margin-left: 10px;
   margin-right: 10px;
   background-color: bisque;
   color: black;
+  outline: none;
+}
+
+.leftAlignElement {
+  text-align:left;
 }
 
 .iconImageStyle {
-  width: 45px;
-  height: 45 px;
+  width: 30px;
+  height: 30px;
+}
+
+.spaceElementsHorz {
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .middleOfWebsite {
