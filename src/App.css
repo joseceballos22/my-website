@@ -1,0 +1,28 @@
+@font-face {
+  font-family: midWebsiteFont;
+  src: url(fonts/pageFont.ttf);
+}
+@font-face {
+  font-family: topWebsiteFont;
+  src: url(fonts/topWebsiteFont.woff2);
+}
+
+.sliderimg{
+  width: 30%;
+  height: 30%;
+  object-fit: cover
+}
+.topSectionOfWebsite{
+  background-color: bisque;
+  font-family: topWebsiteFont;
+}
+
+.middleOfWebsite {
+  text-align: center;
+  font-size: 65px;
+  font-family: midWebsiteFont;
+}
+
+.cardStyle {
+  width: 150px;
+}
