@@ -37,8 +37,8 @@ class App extends React.Component {
             </Row>
             <hr></hr>
             <Row>
-              <Col>
-                SweetsByMaria.us
+              <Col className='boldText'>
+                www.SweetsByMaria.us
               </Col>
               <Col>
                   Home Page Button , About Us Button , Store Button 

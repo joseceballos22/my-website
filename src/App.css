@@ -15,12 +15,21 @@
 .topSectionOfWebsite{
   background-color: bisque;
   font-family: topWebsiteFont;
+  font-size: large;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.boldText {
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 .middleOfWebsite {
   text-align: center;
-  font-size: 65px;
+  font-size: 80px;
   font-family: midWebsiteFont;
+  padding-top: 90px;
+  padding-bottom: 30px;
 }
 
 .cardStyle {
