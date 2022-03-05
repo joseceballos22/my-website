@@ -1,10 +1,11 @@
 import React from 'react';
 // import Button from 'react-bootstrap/Button';
-import { Container, Image, Row, Col, Card } from 'react-bootstrap';
+import { Container, Image, Row, Col, Card, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Adding the boot strap css 
 import sweetsByMaria from './images/sweetsByMaria.png';
 import bestInTheHD from './images/bestInTheHD.png';
 import openNow from './images/openNow.png';
+import instagramImage from './images/instagram.png';
 import './App.css';
 
 class App extends React.Component {
@@ -32,16 +33,31 @@ class App extends React.Component {
                 760-123-4567
               </Col>
               <Col>
-                  instagram link, log in button
+                  <a href='https://www.instagram.com/sweetsbymaria__/' className='linkText'>
+                    <img src={instagramImage} className="iconImageStyle"></img>
+                  </a>
+                  <Button className='buttonStyle'>
+                    Log In
+                  </Button>
               </Col>
             </Row>
             <hr></hr>
             <Row>
-              <Col className='boldText'>
-                www.SweetsByMaria.us
+              <Col>
+                <a href='https://www.SweetsByMaria.us' className='linkText'>
+                SweetsByMaria.us
+                </a>
               </Col>
               <Col>
-                  Home Page Button , About Us Button , Store Button 
+                  <Button className='buttonStyle'>
+                    Home
+                  </Button>
+                  <Button className='buttonStyle'>
+                    Store
+                  </Button>
+                  <Button className='buttonStyle'>
+                    About Us
+                  </Button>
               </Col>
             </Row>
           </Container>
