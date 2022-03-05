@@ -1,0 +1,16 @@
+Things To DO: 
+    - Need to Add buttons to the top of the website 
+    - Need to add slider 
+    - Need to add pictures of products 
+    - Need to build Store (Use bootstrap cards ) 
+    - Need to add review section at the bottom 
+    - Need to add about us section 
+    - Need to clean Up code and put it into its own components 
+    - Need to Add the React Router code to take them to the approiate website link 
+    - Need to fix the top of the website icon.  
+    
+    
+    
+    
+    
+    - Need to create backend / set up github secrets 

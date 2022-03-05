@@ -16,6 +16,11 @@ class App extends React.Component {
     };
   }
 
+  // Sets the document title 
+  componentDidMount() {
+    document.title = "Home | Sweets By Maria "
+  }
+
   render() {
     return (
       <>
