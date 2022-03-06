@@ -7,6 +7,7 @@ import bestInTheHD from './images/bestInTheHD.png';
 import openNow from './images/openNow.png';
 import instagramImage from './images/instagramIcon.png';
 import './App.css';
+import { TopSectionOfWebsite } from './components';
 
 class App extends React.Component {
 
@@ -25,48 +26,7 @@ class App extends React.Component {
   render() {
     return (
       <>
-      {/* This will represent the top section of the website */}
-        <div className='topSectionOfWebsite'>
-          <Container>
-            <Row>
-              <Col>
-                760-123-4567
-              </Col>
-              <Col>
-                  <Button variant= 'outline-*' className='buttonStyle'>
-                    Home
-                  </Button>
-                  <Button variant= 'outline-*' className='buttonStyle'>
-                    Store
-                  </Button>
-                  <Button variant= 'outline-*' className='buttonStyle'>
-                    About Us
-                  </Button>
-                  
-                  <Button variant= 'outline-*' className='buttonStyle'>
-                    Log In
-                  </Button>
-                  <a href='https://www.instagram.com/sweetsbymaria__/' className='linkText spaceElementsHorz'>
-                    <img src={instagramImage} className="iconImageStyle"></img>
-                  </a>
-              </Col>
-            </Row>
-            <hr></hr>
-            <Row>
-              <Col>
-                <a href='https://www.SweetsByMaria.us' className='linkText'>
-                SweetsByMaria.us
-                </a>
-              </Col>
-              <Col className='leftAlignElement'>
-                <Button variant= 'outline-*' className='buttonStyle'>
-                  Terms and Conditions
-                </Button>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-
+        <TopSectionOfWebsite></TopSectionOfWebsite>
         <div className='middleOfWebsite'>
             Sweets By Maria
           {/* <Card className='cardStyle'>

@@ -2,7 +2,7 @@ import React from "react";
 import './ImageLink.css';
 
 /** An Image link is a Image you can click and will redirect you to a link */
-class ImageLink extends React.Component {
+export default class ImageLink extends React.Component {
     constructor() {
         super()
     }

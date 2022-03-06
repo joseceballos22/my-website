@@ -1,7 +1,7 @@
 import React from 'react';
 import './Link.css';
 
-class Link extends React.Component {
+export default class Link extends React.Component {
     constructor() {
         super()
     }

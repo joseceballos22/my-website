@@ -1,10 +1,10 @@
-import { Button } from "./Button";
+import { NewButton } from "./NewButton";
 import { ImageLink } from "./ImageLink";
-import { TopSectionOfWebsite } from "./topSectionOfWebsite";
+import { TopSectionOfWebsite } from "./TopSectionOfWebsite";
 import { Link } from "./Link";
 
 export {
-    Button,
+    NewButton,
     ImageLink,
     TopSectionOfWebsite,
     Link,
