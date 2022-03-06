@@ -75,7 +75,7 @@ class App extends React.Component {
               Hello World
             </Card.Title>
             <Card.Text>
-              Card Text hello world 1211111111111111111111111111111111111111111111111111111111111111111111111111111
+              Card Text hello world 
             </Card.Text>
             <Card.Body>
               Card Body

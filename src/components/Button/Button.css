@@ -1,0 +1,8 @@
+.buttonStyle {
+    box-shadow: none !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: bisque;
+    color: black;
+    outline: none;
+  }

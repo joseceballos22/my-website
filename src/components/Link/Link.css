@@ -1,0 +1,6 @@
+.linkText {
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none; /*Removes the Hyperlink and underscore*/
+    color: rgb(44, 44, 44);
+}
