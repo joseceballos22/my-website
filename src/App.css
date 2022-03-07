@@ -7,11 +7,3 @@
   font-family: topWebsiteFont;
   src: url(fonts/topWebsiteFont.woff2);
 }
-
-.middleOfWebsite {
-  text-align: center;
-  font-size: 80px;
-  font-family: midWebsiteFont;
-  padding-top: 90px;
-  padding-bottom: 30px;
-}
