@@ -3,8 +3,8 @@ import "./Home.css";
 import { TopSectionOfWebsite, MiddleOfWebsite } from "../index";
 
 export default class Home extends React.Component {
-    constructor() {
-        super()
+    constructor(props) {
+        super(props)
     }
     
     // Sets the document title 
@@ -15,7 +15,7 @@ export default class Home extends React.Component {
     render() {
         return (
             <>
-            <TopSectionOfWebsite></TopSectionOfWebsite>
+            <TopSectionOfWebsite changeCurrentPage={this.props.changeCurrentPage}></TopSectionOfWebsite>
             <MiddleOfWebsite></MiddleOfWebsite>
             </>
         );

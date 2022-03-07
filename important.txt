@@ -1,2 +1,14 @@
 (The whole thing with react is to separate everything into components kinda like how we separate a big function
  into multiple little functions and then call them all in one function) 
+
+
+
+ 
+	USE REDUX 
+
+	- I Think i Need to define the onclick function first in the app.js App Component and pass it to the component that needs it 
+		- And i think this is why redux would have been useful
+		https://stackoverflow.com/questions/36631761/when-should-i-add-redux-to-a-react-app
+
+        - Yeah thats why redux is useful
+	

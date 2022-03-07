@@ -1,0 +1,3 @@
+Note: 
+
+- React doesn't update unless a state is updated then it will update. 
